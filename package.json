@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-a28",
+  "version": "1.0.0",
+  "description": "Area28's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run --silent tests-only"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/area28technologies/eslint-config-a28.git"
+  },
+  "author": "Yann Vaillant <yann.vaillant@area28.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/area28technologies/eslint-config-a28/issues"
+  },
+  "homepage": "https://github.com/area28technologies/eslint-config-a28#readme",
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=7",
+    "@typescript-eslint/eslint-plugin": ">=4.0.0",
+    "@typescript-eslint/parser": ">=4.0.0"
+  }
+}
