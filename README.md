@@ -11,7 +11,7 @@ first the peer dependencies
 
 Then the main config
 
-`npm install eslint-config-a28 --save-dev`
+`npm install @area28/eslint-config-a28 --save-dev`
 
 
 ## Config
@@ -20,6 +20,6 @@ And your `.eslintrc.js` can look something like that:
 
 ```js
 module.exports = {
-  extends: ['a28'],
+  extends: ['@area28/eslint-config-a28'],
 };
 ```
