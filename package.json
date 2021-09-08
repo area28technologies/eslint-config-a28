@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-a28",
-  "version": "1.0.0",
+  "name": "@area28/eslint-config-a28",
+  "version": "1.0.3",
   "description": "Area28's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -16,13 +16,15 @@
     "url": "https://github.com/area28technologies/eslint-config-a28/issues"
   },
   "homepage": "https://github.com/area28technologies/eslint-config-a28#readme",
-  "dependencies": {
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.2"
+  "devDependencies": {
+    "eslint-config-standard": "^16.0.3"
   },
   "peerDependencies": {
     "eslint": ">=7",
     "@typescript-eslint/eslint-plugin": ">=4.0.0",
-    "@typescript-eslint/parser": ">=4.0.0"
+    "@typescript-eslint/parser": ">=4.0.0",
+    "eslint-plugin-promise": ">=5.0.0",
+    "eslint-plugin-import": ">=2.0.0",
+    "eslint-plugin-node": ">=11.0.0"
   }
 }
