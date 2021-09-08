@@ -6,7 +6,7 @@ Area28's ESLint config
 
 first the peer dependencies
 
-`npm install @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint --save-dev`
+`npm install @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-node --save-dev`
 
 
 Then the main config
