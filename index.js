@@ -1,31 +1,18 @@
 module.exports = {
 	extends: [
-		"eslint:recommended",
-		"standard",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended",
+		'eslint:recommended',
+		'plugin:@typescript-eslint/recommended',
+		'standard-with-typescript',
 	],
 	env: {
-		"node": true
+		'node': true,
 	},
-	parser: "@typescript-eslint/parser",
+	parser: '@typescript-eslint/parser',
 	plugins: [
-		"@typescript-eslint",
+		'@typescript-eslint',
 	],
-	settings: {
-		"import/parsers": {
-			"@typescript-eslint/parser": [
-				".ts",
-				".tsx"
-			]
-		},
-		"import/resolver": {
-			"typescript": {}
-		}
-	},
 	rules: {
-		"@typescript-eslint/no-explicit-any": "off",
-		"comma-dangle": ["error", "always-multiline"],
-		"semi": ["error", "always"]
+		'@typescript-eslint/no-explicit-any': 'off',
+		'comma-dangle': ['error', 'always-multiline'],
 	}
 };
